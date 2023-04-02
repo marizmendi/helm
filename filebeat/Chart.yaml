@@ -1,0 +1,7 @@
+apiVersion: v2
+name: falco
+version: 0.0.1
+dependencies:
+  - name: filebeat
+    version: "7.12.1"
+    repository: https://helm.elastic.co/
